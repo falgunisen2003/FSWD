@@ -46,6 +46,7 @@ ul{
   .nav.links li {
     list-style: none; 
     margin: 0 30px; 
+    text-shadow: 5px 5px 8px #07077b;
   }
   
   
