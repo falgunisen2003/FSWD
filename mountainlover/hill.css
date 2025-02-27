@@ -9,18 +9,18 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration:none;
 }
 /* ul{
     list-style: none;
 } */
 .active{
-    color: #d30e50;
+    /* color: #d6191c; */
    
     font-weight: bold;
 }
 .advanture{
-  text-shadow: 5px 5px 8px #de0c2c;
+  text-shadow: 5px 5px 8px #cb0624;
   /* position: absolute; */
   
   top: 0;
@@ -65,13 +65,13 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  unicode-bidi: isolate;
+  /* unicode-bidi: isolate; */
 }
 
    .nav.links li {
     list-style: none; 
     margin: 0 30px; 
-    text-shadow: 5px 5px 8px #07077b;
+    text-shadow: 5px 5px 8px #07079b;
   } 
    
   
@@ -98,7 +98,7 @@ header {
 .line{
     width: 150px;
     height:4px;
-    background: #d30e50;
+    background: #e60658;
     margin: 10px auto;
     border-radius:5px;
 
