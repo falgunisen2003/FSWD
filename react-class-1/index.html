@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React intro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <div id="root">
+     <div id: "div-01">hello</div> -->
+     <!-- <h1 id: "div-01">hello</h1>
+     <h2>world</h2> -->
+   <!-- </div> -->
+
+   
+    <!-- cdn -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+    <!-- cdn -->
+    <!-- <script> -->
+    <!-- // document.getElementById('root').appendChild(document.createElement('div')).
+    // innerText='hello'
+
+    // let h1=document.createElement("h1").innerHTML="hello";
+    // let h2=document.createElement("h2").innerHTML="world";
+    // document.getElementById('root').appendChild(h1,h2);
+    // const div=React.createElement("h1",{id: "div-01"},"hello i am learning react.js")
+    
+    // const root=ReactDOM.createRoot(document.getElementById('root'))
+    // root.render(div);
+    // </script> --> 
+    <script>
+        import React from "react";
+
+const LoginPage = () => {
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-black relative">
+      <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: 'url(/background.jpg)' }}></div>
+      <div className="relative z-10 bg-black bg-opacity-75 p-8 rounded-2xl shadow-lg max-w-md w-full">
+        <div className="flex justify-center mb-4">
+          <img src="/logo.png" alt="Logo" className="h-10" />
+        </div>
+        <h2 className="text-white text-center text-2xl font-semibold mb-6">Log in to your account</h2>
+        <form className="space-y-4">
+          <div>
+            <label className="text-gray-300 block text-sm mb-1">Email</label>
+            <input type="email" className="w-full p-2 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" />
+          </div>
+          <div>
+            <label className="text-gray-300 block text-sm mb-1">Password</label>
+            <input type="password" className="w-full p-2 bg-gray-800 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" />
+          </div>
+          <div className="flex items-center justify-between text-sm text-gray-400">
+            <label className="flex items-center space-x-2">
+              <input type="checkbox" className="accent-purple-500" />
+              <span>Remember me</span>
+            </label>
+            <a href="#" className="text-purple-400 hover:underline">Forgot password</a>
+          </div>
+          <button className="w-full bg-purple-600 hover:bg-purple-700 text-white p-2 rounded-md font-semibold">Log in</button>
+        </form>
+        <p className="text-gray-400 text-center text-sm mt-4">
+          Don’t have an account? <a href="#" className="text-purple-400 hover:underline">Sign up now</a>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default LoginPage;
+    </script>
+</body>
+</html>
